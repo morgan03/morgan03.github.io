@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <div class="d-flex flex-row menu-flex">
+      <div class="menu-phone hide-menu-items menu-items">
+        <div class="d-flex flex-column">
+          <div class="pl-2">
+            <img class="close-menu"  src="images/icon-close.svg" alt="">
+          </div>
+          <div class="">
+            <ul class="ul-list">
+              <li class="list-item">Collections</li>
+              <li class="list-item">Men</li>
+              <li class="list-item">Women</li>
+              <li class="list-item">About</li>
+              <li class="list-item">Contact</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="menu-transparent  hide-menu-items menu-items">
+
+      </div>
+    </div>
+
+    <div class="menu-width hide-menu-items menu-items">
+
+    </div>
+    <div class="expand-menu">
+      <div class="heading d-flex justify-content-between px-3">
+        <div class="d-flex flex-row ">
+          <div class="nav-accordion mr-2">
+
+          </div>
+          <div class="header-logo">
+            <img src="images/logo.svg" alt="">
+          </div>
+          <div class="navbar desktop-nav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 d-flex flex-row desktop-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-group" href="#">Collections</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-group" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-group" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-group" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-group" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="user-items-div">
+          <div class="d-flex flex-column">
+            <div class="d-flex flex-row justify-content-end">
+              <div class="user-basket">
+                <img class="basket-icon" src="images/icon-cart.svg" alt="">
+              </div>
+
+              <div class="user-icon">
+                <img class="user-avatar" src="images/image-avatar.png" alt="">
+              </div>
+            </div>
+            <div class="d-flex flex-row justify-content-end">
+
+              <div class="basket-items basket-items-click">
+                <div class="border-bottom border-dark">
+                  <h4>Cart</h4>
+                </div>
+                <div class="basket-info">
+                  <div class="d-flex flex-column">
+                    <div class="d-flex flex-row py-3">
+                      <div class="basket-img px-2 basket-full">
+                        <img id="basket-thmb-img" src="images/image-product-1-thumbnail.jpg" alt="">
+                      </div>
+                      <div class="hide-items empty-cart d-flex justify-content-center">
+                        <p class="empty-cart-p">Your cart is empty</p>
+                      </div>
+                      <div class="d-flex flex-column px-2">
+                        <div class="basket-full">
+                          <small>Fall Limited Edition Sneakers</small>
+                        </div>
+                        <div class="d-flex flex-row ">
+                          <div class="basket-full">
+                            <small class="basket-order"></small>
+                          </div>
+                          <div class="px-2 basket-full">
+                            <small class="total-bill"></small>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="px-2 basket-full">
+                        <img class="delete-item" src="images/icon-delete.svg" alt="">
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <button class="btn btn-primary order-btn basket-full" id="basket-btn" type="submit" name="button">Checkout</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="wrapper">
+        <div class="desktop-flex">
+          <div class="desktop-div hide-desk-img">
+            <div class="close-icon">
+
+            </div>
+            <div class="desktop-select-img d-flex flex-column hide-desk-img">
+              <div class="">
+                <img class="main-img-desktop" src="images/image-product-1.jpg" alt="">
+              </div>
+              <div class="d-flex flex-row">
+                <div class="outer-thumbnail">
+                  <img class="selected-img-desk expanded-img" id="0" src="images/image-product-1-thumbnail.jpg" alt="">
+                </div>
+                <div class="middle-thumbnail">
+                  <img class="expanded-img " id="1" src="images/image-product-2-thumbnail.jpg" alt="">
+                </div>
+                <div class="middle-thumbnail">
+                  <img class="expanded-img" id="2" src="images/image-product-3-thumbnail.jpg" alt="">
+                </div>
+                <div class="outer-thumbnail">
+                  <img class="expanded-img" id="3" src="images/image-product-4-thumbnail.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-row">
+            <div class="item-image">
+              <div class="arrow-div">
+                <div class="arrow-bckground-left">
+                  <div class="icon-div">
+                    <span class="left-arrow img-arrow"></span>
+                  </div>
+                </div>
+                <div class="arrow-bckground-right">
+                  <div class="icon-div">
+                    <span class="right-arrow img-arrow"></span>
+                  </div>
+                </div>
+                <img class="main-img" src="images/image-product-1.jpg" alt="">
+
+              </div>
+
+
+              <div class="desktop-add-img">
+                <div class="outer-thumbnail">
+                  <img class="product-img selected-img " id="0" src="images/image-product-1-thumbnail.jpg" alt="">
+                </div>
+                <div class="middle-thumbnail">
+                  <img class="product-img " id="1" src="images/image-product-2-thumbnail.jpg" alt="">
+                </div>
+                <div class="middle-thumbnail">
+                  <img class="product-img " id="2" src="images/image-product-3-thumbnail.jpg" alt="">
+                </div>
+                <div class="outer-thumbnail">
+                  <img class="product-img " id="3" src="images/image-product-4-thumbnail.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="desktop-margin">
+            <div class="item-info">
+              <div class="item-company">
+                <h3 class="item-orange-text">Sneaker Company</h3>
+              </div>
+
+              <div class="item-name pb-2">
+                <h1>Fall Limited Edition Sneakers</h1>
+              </div>
+
+              <div class="item-description pb-2">
+                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+                  durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+              </div>
+
+              <div class="item-price pb-2">
+                <div class="current-price d-flex flex-row">
+                  <div class="">
+                    <h3 class="center-prices">$125.00</h3>
+                  </div>
+                  <div class="ml-3 promo-info center-prices">
+                    <h4 class="p-1">50%</h4>
+                  </div>
+                </div>
+                <div class="prev-price center-prices">
+                  <h4>$250.00</h4>
+                </div>
+              </div>
+
+              <div class="order-info">
+                <div class="" id="quantity-div">
+                  <div class="d-flex flex-row justify-content-center rounded">
+                    <div class="div-icon">
+                      <label class="label-icon" id="minus-icon" for=""></label>
+                    </div>
+                    <div class="">
+                      <input class="form-control" id="item-quantity" type="number" name="" value="0" placeholder="0">
+                    </div>
+                    <div class="div-icon">
+                      <label class="label-icon" id="plus-icon" for=""></label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex flex-column justify-content-center rounded" id="order-div">
+                  <button class="btn btn-primary order-btn" id="main-order-btn" type="submit" name="button">
+                    <span>Add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+     <!-- end of container -->
+      </div>
+
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Morgan</a>.
+      </div>
+
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
